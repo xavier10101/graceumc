@@ -32,13 +32,22 @@ jobs:
       - name: Build static site
         env:
           NEXT_EXPORT: "true"
-          # If using project pages: set BASE_PATH to /<repo>
-          # For user/organization pages, leave this empty
-          BASE_PATH: ${{ vars.BASE_PATH }}
+          # For project pages: set BASE_PATH to /<repo-name>
+          # For user/org pages: leave BASE_PATH empty
+          BASE_PATH: ${{ vars.BASE_PATH || '' }}
         run: npm run build
 
       - name: Add .nojekyll
         run: echo > out/.nojekyll
+
+      - name: Debug build output
+        run: |
+          echo "Build output contents:"
+          ls -la out/
+          echo "CSS files:"
+          find out -name "*.css" -type f
+          echo "JS files:"
+          find out -name "*.js" -type f
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
