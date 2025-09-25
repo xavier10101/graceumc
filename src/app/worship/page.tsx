@@ -25,18 +25,18 @@ export default function WorshipPage() {
 
           <div>
             <div className="uppercase tracking-wide text-xs text-black/60 dark:text-white/60">Children & Nursery</div>
-            <p className="mt-2">
-              A nursery is provided with a nursery worker and volunteers during both worship services and Sunday School. As part of the United Methodist Church, we practice “Safe Sanctuaries” to protect all children from any form of abuse. Parents are always welcome to visit the nursery.
-            </p>
-            <p className="mt-2">
-              Children are always welcome in worship! Coloring and activity pages related to the day’s theme are available at the back of the sanctuary.
-            </p>
+              <p className="mt-2">
+                A nursery is provided with a nursery worker and volunteers during both worship services and Sunday School. As part of the United Methodist Church, we practice &ldquo;Safe Sanctuaries&rdquo; to protect all children from any form of abuse. Parents are always welcome to visit the nursery.
+              </p>
+              <p className="mt-2">
+                Children are always welcome in worship! Coloring and activity pages related to the day&apos;s theme are available at the back of the sanctuary.
+              </p>
           </div>
 
           <div>
             <div className="uppercase tracking-wide text-xs text-black/60 dark:text-white/60">Holy Communion</div>
             <p className="mt-2">
-              We celebrate Holy Communion on the first Sunday of each month. We practice an “open table” — all are invited to partake as you feel comfortable. Membership is not required. We serve grape juice. Receive the bread and cup as signs of God’s love and forgiveness.
+              We celebrate Holy Communion on the first Sunday of each month. We practice an &ldquo;open table&rdquo; — all are invited to partake as you feel comfortable. Membership is not required. We serve grape juice. Receive the bread and cup as signs of God&apos;s love and forgiveness.
             </p>
           </div>
 
