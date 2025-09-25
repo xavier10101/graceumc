@@ -11,7 +11,7 @@ export default function WorshipPage() {
             <ul className="mt-2 space-y-2 list-disc pl-5">
               <li><span className="font-medium">9:00 a.m.</span> – Contemporary worship with our praise band (Awesome Worship Experience).</li>
               <li><span className="font-medium">10:00 a.m.</span> – Sunday School for all ages; nursery provided.</li>
-              <li><span className="font-medium">11:00 a.m.</span> – Traditional Protestant worship with hymns and contemporary music, communal and private prayers, Scripture reading, and a sermon connecting God's Word to daily life. Warm and welcoming.</li>
+              <li><span className="font-medium">11:00 a.m.</span> – Traditional Protestant worship with hymns and contemporary music, communal and private prayers, Scripture reading, and a sermon connecting God&apos;s Word to daily life. Warm and welcoming.</li>
             </ul>
           </div>
 
@@ -50,14 +50,14 @@ export default function WorshipPage() {
           <div>
             <div className="uppercase tracking-wide text-xs text-black/60 dark:text-white/60">Dress</div>
             <p className="mt-2">
-              There’s no dress code. You’ll see everything from casual to dressy — come as you are.
+              There&apos;s no dress code. You&apos;ll see everything from casual to dressy — come as you are.
             </p>
           </div>
 
           <div>
             <div className="uppercase tracking-wide text-xs text-black/60 dark:text-white/60">Hearing Help</div>
             <p className="mt-2">
-              Hearing assist devices are available. Ask a greeter and we’ll be glad to help.
+              Hearing assist devices are available. Ask a greeter and we&apos;ll be glad to help.
             </p>
           </div>
         </div>
