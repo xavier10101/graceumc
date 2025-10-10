@@ -18,7 +18,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #222222;
     --foreground: #ededed;
     /* Keep brand colors identical in dark mode for now */
     --brand-red: #c1121f;
