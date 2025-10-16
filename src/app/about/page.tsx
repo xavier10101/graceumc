@@ -35,7 +35,7 @@ export default function AboutPage() {
               Sharing Hope
             </div>
             <p className="text-sm ml-4">
-              We provide encouragement and nurture faith through sharing God's word.
+              We provide encouragement and nurture faith through sharing God&apos;s word.
             </p>
             
             <div
