@@ -12,6 +12,11 @@ const nextConfig: NextConfig = {
   // If deploying to a project pages site, set basePath to `/${repoName}` at build time.
   basePath: process.env.BASE_PATH || undefined,
   assetPrefix: process.env.BASE_PATH || undefined,
+  experimental: {
+    turbo: {
+      root: ".",
+    },
+  },
 };
 
 export default nextConfig;
