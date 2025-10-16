@@ -40,6 +40,11 @@ jobs:
       - name: Add .nojekyll
         run: echo > out/.nojekyll
 
+      - name: Copy logo image
+        run: |
+          cp public/GraceUMC_Logo_Small.jpg out/
+          echo "Logo copied to output directory"
+
       - name: Debug build output
         run: |
           echo "Build output contents:"

@@ -3,7 +3,6 @@ import Link from "next/link";
 import Image from "next/image";
 import { Geist_Mono, Inter } from "next/font/google";
 import Nav from "./components/Nav";
-import logoImage from "../GraceUMC_Logo_Small.jpg";
 import "./globals.css";
 
 const inter = Inter({
@@ -35,8 +34,8 @@ export default function RootLayout({
           <header className="sticky top-0 z-40 bg-white/80 dark:bg-black/40 backdrop-blur border-b border-black/[.08] dark:border-white/[.145]">
             <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
               <Link href="/" className="flex items-center gap-3 text-xl font-semibold" style={{ color: "var(--brand-red)" }}>
-                <Image
-                  src={logoImage}
+                <img
+                  src="/GraceUMC_Logo_Small.jpg"
                   alt="Grace UMC Logo"
                   width={40}
                   height={40}
