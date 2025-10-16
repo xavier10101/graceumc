@@ -14,9 +14,40 @@ export default function AboutPage() {
             and downtown Greer, the warm, welcoming hearts of Grace and the
             meaningful worship experiences make this a special place. Visitors are
             enthusiastically welcomed and every effort is made to help them feel at
-            home. Both worship services have professional worship directors who are
+            home.             Both worship services have professional worship directors who are
             incredibly talented and highly dedicated to doing their best for our Lord!
           </p>
+          <div className="mt-6 space-y-3">
+            <div
+              className="text-lg font-semibold tracking-tight leading-tight bg-clip-text text-transparent drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]"
+              style={{ backgroundImage: "linear-gradient(90deg, var(--brand-red), var(--brand-blue))" }}
+            >
+              Welcoming Love
+            </div>
+            <p className="text-sm ml-4">
+              We welcome visitors and family with warmth, openness and a sense of belonging.
+            </p>
+            
+            <div
+              className="text-lg font-semibold tracking-tight leading-tight bg-clip-text text-transparent drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]"
+              style={{ backgroundImage: "linear-gradient(90deg, var(--brand-blue), var(--brand-red))" }}
+            >
+              Sharing Hope
+            </div>
+            <p className="text-sm ml-4">
+              We provide encouragement and nurture faith through sharing God's word.
+            </p>
+            
+            <div
+              className="text-lg font-semibold tracking-tight leading-tight bg-clip-text text-transparent drop-shadow-[0_1px_1px_rgba(0,0,0,0.25)]"
+              style={{ backgroundImage: "linear-gradient(90deg, var(--brand-red), var(--brand-blue))" }}
+            >
+              Serving with Compassion
+            </div>
+            <p className="text-sm ml-4">
+              We give generously of our love, gifts, and talents as we serve others.
+            </p>
+          </div>
         </div>
       </div>
 

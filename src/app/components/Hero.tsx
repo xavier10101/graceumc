@@ -10,7 +10,7 @@ export default function Hero() {
         alt="Grace UMC exterior"
         fill
         priority
-        className="absolute inset-0 -z-10 object-cover opacity-60"
+        className="absolute inset-0 -z-10 object-cover opacity-75"
       />
       <div className="px-8 pt-10 pb-16 sm:px-12 sm:pt-12 sm:pb-20 md:px-16 md:pt-14 md:pb-24">
         <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
