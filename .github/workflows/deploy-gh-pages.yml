@@ -34,16 +34,13 @@ jobs:
           NEXT_EXPORT: "true"
           # For project pages: set BASE_PATH to /<repo-name>
           # For user/org pages: leave BASE_PATH empty
-          BASE_PATH: ${{ vars.BASE_PATH || '' }}
+          BASE_PATH: "/graceumc"
         run: npm run build
 
       - name: Add .nojekyll
         run: echo > out/.nojekyll
 
-      - name: Copy all public assets
-        run: |
-          cp -r public/* out/
-          echo "All public assets copied to output directory"
+
 
       - name: Debug build output
         run: |

@@ -35,7 +35,7 @@ export default function RootLayout({
             <div className="mx-auto max-w-6xl px-6 py-4 flex items-center justify-between">
               <Link href="/" className="flex items-center gap-3 text-xl font-semibold" style={{ color: "var(--brand-red)" }}>
                 <img
-                  src="/GraceUMC_Logo_Small.jpg"
+                  src={`${process.env.BASE_PATH || ''}/GraceUMC_Logo_Small.jpg`}
                   alt="Grace UMC Logo"
                   width={40}
                   height={40}
