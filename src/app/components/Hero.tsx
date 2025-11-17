@@ -10,11 +10,11 @@ export default function Hero() {
         alt="Grace UMC exterior"
         fill
         priority
-        className="absolute inset-0 -z-10 object-cover opacity-75"
+        className="absolute inset-0 -z-10 object-cover opacity-95 brightness-110"
       />
       <div className="relative flex flex-col h-full min-h-[400px] sm:min-h-[500px] md:min-h-[600px]">
         {/* Semi-transparent backdrop for better text readability */}
-        <div className="absolute inset-0 bg-black/30 dark:bg-black/50 rounded-2xl -z-10"></div>
+        <div className="absolute inset-0 bg-black/15 dark:bg-black/30 rounded-2xl -z-10"></div>
         
         {/* Text content at top */}
         <div className="px-8 pt-10 sm:px-12 sm:pt-12 md:px-16 md:pt-14 flex-1">
