@@ -56,10 +56,35 @@ export default function ContactForm() {
       return;
     }
     setBusy(true);
-    // For now, do not send email. Simulate success response.
-    await new Promise((r) => setTimeout(r, 600));
-    setBusy(false);
-    setSuccess(true);
+    
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: form.name.trim(),
+          email: form.email.trim(),
+          subject: form.subject.trim(),
+          message: form.message.trim(),
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        setError(data.error || 'Failed to send message. Please try again.');
+        setBusy(false);
+        return;
+      }
+
+      setSuccess(true);
+    } catch (err) {
+      setError('An unexpected error occurred. Please try again later.');
+    } finally {
+      setBusy(false);
+    }
   }
 
   return (

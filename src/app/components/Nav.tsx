@@ -5,9 +5,9 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 
 const links = [
+  { href: "/worship", label: "Services" },
   { href: "/about", label: "About Us" },
-  { href: "/ministry-opportunities", label: "Ministry Opportunities" },
-  { href: "/worship", label: "Worship" },
+  { href: "/ministry-opportunities", label: "Ministries" },
   { href: "/calendar", label: "Calendar" },
   { href: "/contact", label: "Contact Us" },
 ];
