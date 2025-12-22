@@ -21,7 +21,7 @@ export default function Home() {
                 </Link>
               </h3>
               <p className="text-xs text-black/60 dark:text-white/60 mt-1">{post.displayDate ?? new Date(post.date).toLocaleDateString()}</p>
-              <p className="mt-3 text-sm">{post.excerpt}</p>
+              <p className="mt-3 text-sm whitespace-pre-line">{post.excerpt}</p>
               <div className="mt-4">
                 <Link href={`/articles/${post.slug}`} className="text-sm hover:underline" style={{ color: "var(--brand-blue)" }}>Read more →</Link>
               </div>

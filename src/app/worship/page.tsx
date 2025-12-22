@@ -9,9 +9,9 @@ export default function WorshipPage() {
           <div>
             <div className="uppercase tracking-wide text-xs text-black/60 dark:text-white/60">Service Times</div>
             <ul className="mt-2 space-y-2 list-disc pl-5">
-              <li><span className="font-medium">9:00 a.m.</span> – Contemporary worship with our praise band (Awesome Worship Experience).</li>
-              <li><span className="font-medium">10:00 a.m.</span> – Sunday School for all ages; nursery provided.</li>
-              <li><span className="font-medium">11:00 a.m.</span> – Traditional Protestant worship with hymns and contemporary music, communal and private prayers, Scripture reading, and a sermon connecting God&apos;s Word to daily life. Warm and welcoming.</li>
+              <li><span className="font-medium">Sunday 9:00 a.m.</span> – Contemporary worship with our praise band (Awesome Worship Experience).</li>
+              <li><span className="font-medium">Sunday 10:00 a.m.</span> – Sunday School for all ages; nursery provided.</li>
+              <li><span className="font-medium">Sunday 11:00 a.m.</span> – Traditional Protestant worship with hymns and contemporary music, communal and private prayers, Scripture reading, and a sermon connecting God&apos;s Word to daily life. Warm and welcoming.</li>
             </ul>
           </div>
 
