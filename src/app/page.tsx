@@ -3,7 +3,7 @@ import { getAllArticles } from "../lib/articles";
 import Hero from "./components/Hero";
 
 export default function Home() {
-  const posts = getAllArticles();
+  const posts = getAllArticles().slice(0, 3);
   return (
     <div className="space-y-10">
       <Hero />
