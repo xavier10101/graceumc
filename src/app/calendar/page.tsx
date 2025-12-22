@@ -18,6 +18,9 @@ export default function CalendarPage() {
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Tue 12/30: Cub Scouts & Boy Scouts - 6:30pm</p>
           </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Wed 12/31: New Years Eve Celebration (Theme: Germany) - 5:30pm</p>
+          </div>
         </div>
       </div>
 
