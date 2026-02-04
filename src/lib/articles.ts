@@ -8,6 +8,15 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+    {
+    slug: "grace-umc-cancels-sunday-worship-ahead-of-snowfall",
+    title: "Grace UMC Cancels Sunday Worship Ahead of Snowfall",
+    date: "2026-02-04",
+    displayDate: "2/4/26",
+    excerpt: "Grace UMC cancels Sunday worship on February 1, 2026 due to forecasted snow. Parishioners are asked to stay safe and monitor church updates.",
+    content:
+      "Grace United Methodist Church has canceled its Sunday worship services for February 1, 2026, in response to forecasted winter weather. Prioritizing the safety of worshippers, volunteers, and staff, the decision is made out of an abundance of caution given the expected conditions.\n\nPlease take care and stay tuned for updates from the church. Information about any changes will be shared through official channels, including the Grace UMC Greer Facebook page, to keep the congregation informed.\n\nWe look forward to gathering again when conditions allow and encourage everyone to monitor local weather advisories for safety.",
+  },
   {
     slug: "photos-with-santa-crafts-and-bingo",
     title: "Photos with Santa, Crafts, and Bingo",
