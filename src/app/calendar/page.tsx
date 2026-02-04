@@ -10,6 +10,9 @@ export default function CalendarPage() {
         </h2>
         <div className="space-y-3 max-w-2xl mx-auto">
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Wed, 2/4: Bible Study - 6pm</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Fri, 2/6: Scout Derby Set-up - 6pm</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
@@ -17,6 +20,9 @@ export default function CalendarPage() {
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Sun, 2/8: Souper Bowl Luncheon - 12pm</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Wed, 2/11: Bible Study canceled due to Pastor Angie out of town</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Wed, 2/18: Pancake Supper - 6pm</p>
