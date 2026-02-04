@@ -10,7 +10,7 @@ export default function CalendarPage() {
         </h2>
         <div className="space-y-3 max-w-2xl mx-auto">
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
-            <p className="font-medium">Wed, 2/4: Bible Study - 6pm</p>
+            <p className="font-medium">Sun, 2/1: Grace UMC services canceled due to snow predictions</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Fri, 2/6: Scout Derby Set-up - 6pm</p>
