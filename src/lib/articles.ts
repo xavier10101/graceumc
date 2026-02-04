@@ -8,6 +8,15 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+    {
+    slug: "grace-umc-bible-study-tonight-and-pastor-angies-birthday",
+    title: "Grace UMC Bible Study Tonight at 6 PM and Pastor Angie's Birthday",
+    date: "2026-02-04",
+    displayDate: "2/4/26",
+    excerpt: "Grace UMC invites the community to Bible study tonight at 6 PM and to celebrate Pastor Angie’s birthday.",
+    content:
+      "Grace United Methodist Church invites the congregation to join Bible study this evening at 6:00 PM. The gathering offers a time for study and reflection within the church community. In addition, the event is noted as a celebration of Pastor Angie’s birthday, adding a warm, communal touch to the evening.\n\nThe update comes from Grace UMC’s office staff, Leslie and Pam. For those seeking more information, details are available on the church’s Facebook page (Grace UMC Greer).",
+  },
   {
     slug: "photos-with-santa-crafts-and-bingo",
     title: "Photos with Santa, Crafts, and Bingo",
