@@ -8,6 +8,15 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+    {
+    slug: "grace-umc-updates-souperbowl-sunday-bible-study-scout-activities",
+    title: "Grace UMC Updates: Souperbowl Sunday and Scout Activities",
+    date: "2026-02-04",
+    displayDate: "2/4/26",
+    excerpt: "Grace UMC shares upcoming service plans and Girl Scout activities at the church.",
+    content:
+      "Grace United Methodist Church invites the congregation and friends to join in for Souperbowl Sunday, encouraging attendees to bring soups, desserts, and donations for the Greer Soup Kitchen as part of worship and service. \n This event highlights the church’s commitment to community support through sharing meals and caring for those in need. \n Community notice: A Girl Scout troop is now meeting at Grace UMC on Wednesday evenings, and another scout group is planned to meet here on February 21, reflecting the church’s role as a community gathering space.",
+  },
   {
     slug: "photos-with-santa-crafts-and-bingo",
     title: "Photos with Santa, Crafts, and Bingo",
