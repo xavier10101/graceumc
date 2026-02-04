@@ -10,6 +10,9 @@ export default function CalendarPage() {
         </h2>
         <div className="space-y-3 max-w-2xl mx-auto">
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Sun, 2/1: Grace UMC services canceled due to snow predictions</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Fri, 2/6: Scout Derby Set-up - 6pm</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
@@ -20,13 +23,15 @@ export default function CalendarPage() {
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Wed, 2/18: Pancake Supper - 6pm</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Wed, 2/18: Ash Wednesday Service - 7pm</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Sat, 2/21: Methodist Women of Faith - 9am</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
-            <p className="font-medium">Fri & Sat, 2/27 & 2/28: Boy Scout Camp</p>
+            <p className="font-medium">Fri &amp; Sat, 2/27 &amp; 2/28: Boy Scout Camp</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Sat, 2/28: Church Council Calendar Planning Meeting - 10am</p>
