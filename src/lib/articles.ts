@@ -13,9 +13,10 @@ export const articles: Article[] = [
     title: "Grace UMC Updates: Souperbowl Sunday, Bible Study Schedule, and Scout Activities",
     date: "2026-02-04",
     displayDate: "2/4/26",
-    excerpt: "Grace UMC shares upcoming service and study plans, a health update for a parishioner, and notice of Scout activities at the church.",
+    excerpt: "Grace UMC shares upcoming service plans and Girl Scout activities at the church.",
     content:
-      "Grace United Methodist Church invites the congregation and friends to join in for Souperbowl Sunday, encouraging attendees to bring soups, desserts, and donations for the Greer Soup Kitchen as part of worship and service. This event highlights the church’s commitment to community support through sharing meals and caring for those in need.\n\nBible Study is scheduled for this Wednesday, February 4 (2-4-26) at 6:00 p.m. Please note that the session on February 11 will be canceled, as Pastor Angie will be out of town.\n\nHealth update: Alton recently consulted with a heart specialist and will undergo an implant designed to monitor and manage his heart condition more closely. Please keep Alton and Christine in your prayers during this time.\n\nCommunity notice: A Girl Scout troop is now meeting at Grace UMC on Wednesday evenings, and another scout group is planned to meet here on February 21, reflecting the church’s role as a community gathering space.",
+      "Grace United Methodist Church invites the congregation and friends to join in for Souperbowl Sunday, encouraging attendees to bring soups, desserts, and donations for the Greer Soup Kitchen as part of worship and service." 
+      "This event highlights the church’s commitment to community support through sharing meals and caring for those in need.\n\nCommunity notice: A Girl Scout troop is now meeting at Grace UMC on Wednesday evenings, and another scout group is planned to meet here on February 21, reflecting the church’s role as a community gathering space.",
   },
   {
     slug: "photos-with-santa-crafts-and-bingo",
