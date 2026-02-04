@@ -22,6 +22,9 @@ export default function CalendarPage() {
             <p className="font-medium">Sun, 2/8: Souper Bowl Luncheon - 12pm</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Wed, 2/11: Bible Study canceled due to Pastor Angie out of town</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Wed, 2/18: Pancake Supper - 6pm</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
@@ -29,6 +32,9 @@ export default function CalendarPage() {
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Sat, 2/21: Methodist Women of Faith - 9am</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Sat, 2/21: Girl Scout group meeting</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Fri &amp; Sat, 2/27 &amp; 2/28: Boy Scout Camp</p>
