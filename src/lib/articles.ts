@@ -8,6 +8,15 @@ export type Article = {
 };
 
 export const articles: Article[] = [
+    {
+    slug: "grace-umc-cancels-sunday-services-amid-snow-forecast",
+    title: "Grace UMC Cancels Sunday Services Amid Snow Forecast",
+    date: "2026-02-04",
+    displayDate: "2/4/26",
+    excerpt: "Grace UMC cancels Sunday worship due to a winter storm; updates will be posted on the church's Facebook page.",
+    content:
+      "Grace United Methodist Church has announced that all Sunday worship services planned for February 1, 2026, will be canceled in light of the expected winter snowstorm. The decision prioritizes the safety of worshipers and the wider community as weather conditions are monitored.\n\nChurch leaders will share any further updates or potential rescheduling as conditions evolve. Please stay tuned to official church communications for the latest information.\n\nUpdates will be provided by the Grace UMC office staff—Leslie, Pam, and occasionally Pete—through the church's official Facebook page to ensure the congregation has a reliable source for announcements.",
+  },
   {
     slug: "photos-with-santa-crafts-and-bingo",
     title: "Photos with Santa, Crafts, and Bingo",
