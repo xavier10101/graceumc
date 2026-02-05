@@ -10,6 +10,9 @@ export default function CalendarPage() {
         </h2>
         <div className="space-y-3 max-w-2xl mx-auto">
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Please paste the email content you’d like me to analyze. I’ll extract all calendar events and format them as specified.</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Sun, 2/1: Grace UMC services canceled due to snow predictions</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
