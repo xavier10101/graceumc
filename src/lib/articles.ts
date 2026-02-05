@@ -8,7 +8,16 @@ export type Article = {
 };
 
 export const articles: Article[] = [
-    {
+      {
+    slug: "grace-umc-invites-community-souper-bowl-sunday-bible-study-update",
+    title: "Grace UMC Invites Community to Souper Bowl Sunday and Bible Study Update",
+    date: "2026-02-04",
+    displayDate: "2/4/26",
+    excerpt: "Grace UMC announces a community Souper Bowl Sunday to support the Greer Soup Kitchen, along with Bible Study reminders, a health update for a congregant, and news about Girl Scout meetings at the church.",
+    content:
+      "Grace United Methodist Church invites the community to participate in Souper Bowl Sunday, a collaborative effort to collect soups, desserts, and donations for the Greer Soup Kitchen. Attendees are encouraged to bring items to share and join in supporting neighbors in need while enjoying fellowship.\n\nBible Study will meet on Wednesday, February 4, 2026 at 6:00 p.m. Please note that the session scheduled for February 11 will be canceled due to Pastor Angie’s travel.\n\nHealth updates were shared about Alton, who has consulted with a heart specialist and is preparing to undergo an implant designed to monitor and manage his condition more closely. Please keep Alton and Christine in your prayers during this time.\n\nThe church continues to welcome community groups, including a Girl Scout troop that is now meeting here on Wednesday evenings, with another group slated to gather on February 21.",
+  },
+  {
     slug: "grace-umc-updates-souperbowl-sunday-bible-study-scout-activities",
     title: "Grace UMC Updates: Souperbowl Sunday and Scout Activities",
     date: "2026-02-04",
