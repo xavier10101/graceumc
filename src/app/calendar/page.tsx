@@ -37,6 +37,9 @@ export default function CalendarPage() {
             <p className="font-medium">Sat, 2/21: Girl Scout group meeting</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Sat, 2/21: Girl Scout group meeting at Grace UMC</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Fri &amp; Sat, 2/27 &amp; 2/28: Boy Scout Camp</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
