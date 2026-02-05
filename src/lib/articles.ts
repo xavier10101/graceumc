@@ -8,7 +8,16 @@ export type Article = {
 };
 
 export const articles: Article[] = [
-    {
+      {
+    slug: "grace-umc-cancels-sunday-worship-amid-snow-forecast",
+    title: "Grace UMC Cancels Sunday Worship Amid Snow Forecast",
+    date: "2026-02-04",
+    displayDate: "2/4/26",
+    excerpt: "Grace UMC cancels Sunday worship on February 1, 2026 due to a snow forecast. Updates will be shared via the church's official Facebook page.",
+    content:
+      "Grace United Methodist Church has canceled its worship service scheduled for Sunday, February 1, 2026, in response to the anticipated winter weather. This decision prioritizes the safety of congregants and staff as the snow is forecast to impact the area. \n\nPlease stay safe and warm. The church will share any updates through its official channels, including the Grace UMC Greer Facebook page, where announcements and further information will be posted as needed.",
+  },
+  {
     slug: "grace-umc-updates-souperbowl-sunday-bible-study-scout-activities",
     title: "Grace UMC Updates: Souperbowl Sunday and Scout Activities",
     date: "2026-02-04",
