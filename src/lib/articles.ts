@@ -8,7 +8,16 @@ export type Article = {
 };
 
 export const articles: Article[] = [
-    {
+      {
+    slug: "grace-umc-greer-souperbowl-success-and-ash-wednesday-schedule",
+    title: "Grace UMC Greer Highlights Souperbowl Success and Ash Wednesday Plans",
+    date: "2026-02-09",
+    displayDate: "2/9/26",
+    excerpt: "Grace UMC Greer celebrates a successful Souperbowl fundraiser for the Greer Soup Kitchen and shares Ash Wednesday plans for February 18.",
+    content:
+      "This week at Grace United Methodist Church in Greer, Wednesday Bible study is canceled as Pastor Angie is away. Worship was led by Susan Livingston yesterday, continuing the church's rhythm of worship and service.\n\nA highlight of the weekend was the Souperbowl lunch, a warm gathering that featured a variety of soups and desserts. The event helped raise generous support for the Greer Soup Kitchen, with a wagon full of canned goods and $420 donated by Grace parishioners. Thank you to everyone who contributed.\n\nLooking ahead to Ash Wednesday on February 18, the church will host a pancake supper at 6:00 p.m., followed by Ash Wednesday worship at 7:00 p.m. For more updates, contact the Grace UMC office (Leslie & Pam) or visit the church's Facebook page.",
+  },
+  {
     slug: "grace-umc-updates-souperbowl-sunday-bible-study-scout-activities",
     title: "Grace UMC Updates: Souperbowl Sunday and Scout Activities",
     date: "2026-02-04",
