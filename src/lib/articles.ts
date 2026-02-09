@@ -9,8 +9,8 @@ export type Article = {
 
 export const articles: Article[] = [
       {
-    slug: "grace-umc-greer-souperbowl-success-and-ash-wednesday-plans",
-    title: "Grace UMC Greer Recaps Souperbowl Success and Ash Wednesday Plans",
+    slug: "grace-umc-greer-souperbowl-success",
+    title: "Souperbowl Fundraising Success",
     date: "2026-02-09",
     displayDate: "2/9/26",
     excerpt: "Grace UMC Greer raises over $400 for Greer Soup Kitchen as part of Souperbowl fundraiser",
