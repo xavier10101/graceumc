@@ -31,6 +31,9 @@ export default function CalendarPage() {
             <p className="font-medium">Wed, 2/18: Ash Wednesday Service - 7pm</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Wed, 2/18: Pancake supper - 6pm</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Sat, 2/21: Methodist Women of Faith - 9am</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
