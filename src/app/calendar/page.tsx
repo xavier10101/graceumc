@@ -25,6 +25,9 @@ export default function CalendarPage() {
             <p className="font-medium">Wed, 2/11: Bible Study canceled due to Pastor Angie out of town</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
+            <p className="font-medium">Wed, 2/11: Bible Study - canceled due to Pastor Angie away this week</p>
+          </div>
+          <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
             <p className="font-medium">Wed, 2/18: Pancake Supper - 6pm</p>
           </div>
           <div className="p-4 rounded-lg bg-gray-50 dark:bg-gray-800/50">
