@@ -8,7 +8,16 @@ export type Article = {
 };
 
 export const articles: Article[] = [
-    {
+      {
+    slug: "grace-umc-greer-souperbowl-success",
+    title: "Souperbowl Fundraising Success",
+    date: "2026-02-09",
+    displayDate: "2/9/26",
+    excerpt: "Grace UMC Greer raises over $400 for Greer Soup Kitchen as part of Souperbowl fundraiser",
+    content:
+      "Grace UMC Greer recently celebrated a successful Souperbowl fundraiser. Attendees enjoyed a variety of soups and desserts, and the church reported a wagon-load of canned goods along with $420 donated to the Greer Soup Kitchen, which will go towards feeding the hungry and needy in the Greer community.\n\n",
+  },
+  {
     slug: "grace-umc-updates-souperbowl-sunday-bible-study-scout-activities",
     title: "Grace UMC Updates: Souperbowl Sunday and Scout Activities",
     date: "2026-02-04",
